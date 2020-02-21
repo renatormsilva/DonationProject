@@ -5,16 +5,17 @@
 
     <title>Doe vida! Doe sangue!</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
+    <a href="medic.html">.</a>
     <header>
         <img
             class="logo"
-            src="logo.png" 
+            src="/logo.png" 
             alt="IMAGEM de DOE">
         <h2>A sua doação importa</h2>
         <p>Até 3 vidas com 1 doação</p>
@@ -27,7 +28,7 @@
 
     <section class="form hide">
         <h2>Entre na lista de doadores</h2>
-        <form action="/">
+        <form action="/" method="POST">
             <input 
                 type="text" 
                 name="name"
@@ -35,7 +36,7 @@
             >
             <input 
                 type="text" 
-                name="name"
+                name="email"
                 placeholder="Email"
             >
             <input 
@@ -43,36 +44,18 @@
                 name="blood"
                 placeholder="Tipo sanguíneo"
             >
+            <input 
+                type="text" 
+                name="phone"
+                placeholder="Telefone"
+            >
             <button>Quero ajudar</button>
         </form>
     </section>
 
-    <main>
-        <h2>Últimos <span>doadores</span></h2>
-
-        <section class="donors">
-            <div class="donor">
-                <div class="blood">A-</div>
-                <p>Renato Rodrigues</p>
-            </div>
-            <div class="donor">
-                <div class="blood">A+</div>
-                <p>vitor Rodrigues</p>
-            </div>
-            <div class="donor">
-                <div class="blood">AB+</div>
-                <p>teupai Rodrigues</p>
-            </div>
-            <div class="donor">
-                <div class="blood">b+</div>
-                <p>Naruto uzumaki</p>
-            </div>
-            
-        </section>
-    </main>
 
     <footer> Com ❤ Renato Rodrigues</footer>
-    <script src="script.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>
