@@ -47,6 +47,11 @@ server.get("/medic.html",function(req, res){
     return res.render("medic.html")
 })
 
+
+server.get("/list.html",function(req, res){
+    return res.render("list.html")
+})
+
 // start server and open door 3000
 server.listen(3000, function(){
     console.log('iniciei o servidor.')
