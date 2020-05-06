@@ -28,13 +28,12 @@
 
 ## 💻 Projeto
 
-#### O Doe Sangue é um projeto para incentivar, encontrar e registrar doadores de sangue, desenvolvido nos dias 17 e 18 de Fevereiro de 2020 na MaratonaDev da Rocketseat, cadastre-se como um doador de sangue!
+#### O Doe Sangue é um projeto para incentivar, encontrar e registrar doadores de sangue,cadastre-se como um doador de sangue!
+
+#### Donate Blood is a project to encourage, find and register blood donors, register as a blood donor!
+
 
 ## Frontend
 
 #### obs: a página está com zoom de 50%
 <img align="center" src="./static/frontend-pc.png"></img>
-
-## :memo: Licença
-
-#### Esse projeto está sob a licença [MIT](./LICENSE) &copy; [Rocketseat](https://rocketseat.com.br/)
